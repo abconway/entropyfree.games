@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' lang='' xml:lang=''>
+    <head>
+        {% block meta %}{% endblock %}
+        <title>{% block title %}{% endblock %}</title>
+        {% block style %}{% endblock %}
+        {% block links %}{% endblock %}
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

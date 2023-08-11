@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Static
-static/
+# Static (top level only)
+/static/
